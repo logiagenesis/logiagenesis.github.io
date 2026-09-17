@@ -470,7 +470,7 @@ lc-tile:focus-within { border-color: var(--lc-teal); }
     padding: var(--sp-4) max(1rem, calc((100vw - var(--shell)) / 2)); gap: var(--sp-3);
   }
   .site-nav__list[hidden] { display: none; }
-  .site-header__cta { margin-left: var(--sp-2); }
+  .site-header__cta { display: none; }
 }
 @media (max-width: 40em) {
   .site-header__cta { display: none; }
