@@ -1,0 +1,8 @@
+/* SITE */
+Name: Little Caterpillars
+Where: Midrand, Gauteng, South Africa
+Ages: 3 months – 6 years
+
+/* BUILD */
+Stack: hand-written HTML, CSS and ES modules. No framework.
+Build: Node, sharp for images.

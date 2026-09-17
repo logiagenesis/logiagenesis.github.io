@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
+Redirect 301 /classes /classes/
+Redirect 301 /rates-extra-s /fees/
+Redirect 301 /meet-the-principle /teachers/
+Redirect 301 /downloads /downloads/
+Redirect 301 /contact-us /contact/
+Redirect 301 /about /about/
+Redirect 301 /our-teachers /teachers/
+Redirect 301 /menus /menus/
+Redirect 301 /stationery-lists /fees/#stationery
+Redirect 301 /enrollment-form /admissions/enrolment/
+Redirect 301 /swimming-enrollment /admissions/swimming/
+Redirect 301 /location /location/
+Redirect 301 /gallery /gallery/
